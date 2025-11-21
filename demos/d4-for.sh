@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo example 1, serie simple
 for v1 in le la 33 les; do
   echo "  $v1"
