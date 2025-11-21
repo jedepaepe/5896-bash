@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 printf "Nom : "
 read family_name
 
