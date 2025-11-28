@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -eo pipefail
 
 if (( $1 >= 0 )); then
   echo "$1 est un entier positif"
