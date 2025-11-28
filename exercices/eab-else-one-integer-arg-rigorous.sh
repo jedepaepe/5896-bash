@@ -6,7 +6,7 @@ if (( $# != 1 )); then
   exit 2
 fi
 
-if ! [[ $0 =~ '^[+-]?[0-9]+$' ]]; then
+if ! [[ $1 =~ ^[+-]?[0-9]+$ ]]; then
   echo "Vous devez introduire un entier"
   exit 2
 fi
