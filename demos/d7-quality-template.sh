@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 set -euo pipefail
-# SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
+# shellcheck disable=SC2034
+SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
