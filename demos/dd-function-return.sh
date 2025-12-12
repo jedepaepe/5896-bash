@@ -2,8 +2,7 @@
 set -o pipefail
 
 add() {
-  local result=$(($1 + $2))
-  return $result
+  return $(($1 + $2))
 }
 
 add 1 3
