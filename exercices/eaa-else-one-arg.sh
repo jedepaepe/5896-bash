@@ -2,7 +2,7 @@
 set -euo pipefail
 
 if (( $# != 1 )); then
-  echo "Vous devez fournir un argument"
+  echo 'Vous devez fournir un argument'
   exit 2
 fi
 
