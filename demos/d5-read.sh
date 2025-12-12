@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-printf "Nom : "
+printf 'Nom : '
 read -r family_name
 
-printf "Prénom : "
+printf 'Prénom : '
 read -r first_name
 
-printf "Téléphone : "
+printf 'Téléphone : '
 read -r phone
 
-printf "Email : "
+printf 'Email : '
 read -r email
 
 printf "%s %s %s %s\n" "$family_name" "$first_name" "$phone" "$email"
