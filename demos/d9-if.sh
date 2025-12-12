@@ -2,7 +2,7 @@
 set -euo pipefail
 
 if (( $#  < 2 )); then
-  echo "Erreur, vous devez fournir 2 arguments." >&2
+  echo "Erreur, vous devez fournir 2 arguments. >&2"
   exit 2
 fi
 
