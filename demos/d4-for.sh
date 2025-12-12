@@ -11,8 +11,13 @@ for v1 in {5..9}; do
 done
 echo
 
-echo 'example 3, résultat d'\''une commande, ls ici'
-for v1 in $(ls /); do
+echo 'example 3, lister tous les fichiers du répertoire de travail'
+for v1 in *; do
   echo "  $v1"
 done
 echo
+
+echo 'example 4, lister les résultats d'\''une commande'
+for v1 in $(cat ./d1-echo.sh); do
+  echo "  $v1"
+done
