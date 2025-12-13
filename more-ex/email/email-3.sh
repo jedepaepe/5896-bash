@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -o pipefail
 
-EMAIL_REGEX="^.*.@..*$"
+EMAIL_REGEX="^.+@.+$"
 
 if [[ "$1" =~ $EMAIL_REGEX ]]; then
   echo "$1 est un email valide"
