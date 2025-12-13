@@ -1,12 +1,20 @@
 #!/usr/bin/env bash
 set -o pipefail
 
-add() {
-  return $(($1 + $2))
+return_success() {
+  return 0
 }
 
-add 1 3
-echo "1 + 3 = $?"
+return_error() {
+  return 1
+}
 
-add 51 14
-echo "51 + 14 = $?"
+return_success
+echo "La valeur de retour de return_sucess est $?"
+
+echo
+
+return_error
+echo "La valeur de retour de return_error est $?"
+
+echo
